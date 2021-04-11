@@ -1,0 +1,12 @@
+{
+    "title": "$:/themes/axxie/wide",
+    "name": "Wide",
+    "description": "Like regular web-page with blog entries",
+    "author": "Ivan Keliukh",
+    "list": "readme",
+    "version": "0.0.1",
+    "core-version": ">=5.0.8",
+    "source": "https://github.com/axxie/wide",
+    "plugin-type": "theme",
+    "dependents": ["$:/themes/tiddlywiki/vanilla"]
+}

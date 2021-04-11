@@ -1,0 +1,20 @@
+{
+    "tiddlers": [
+        { 
+            "file": "style.tid",
+            "isTiddlerFile": true
+        },
+        {
+            "file": "readme.tid",
+            "isTiddlerFile": true
+        },
+        {
+            "file": "topbar-menu.tid",
+            "isTiddlerFile": true
+        },
+        {
+            "file": "themetweaks.tid",
+            "isTiddlerFile": true
+        }
+    ]
+}

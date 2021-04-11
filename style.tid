@@ -1,0 +1,51 @@
+title:  $:/plugins/axxie/theme/style.css
+tags: [[$:/tags/Stylesheet]]
+type: text/css
+
+.tc-story-river {
+    left: 300px;
+    width: calc(100% - 300px);
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.tc-sidebar-scrollable {
+    left: 0px;
+    margin-left: 0px;
+    width: 300px;
+    padding: 29px 42px 28px 42px;
+    border-right: 1px solid rgb(207, 205, 205);
+}
+
+.tc-tiddler-frame {
+    width: 100%;
+    margin: 0;
+}
+
+.tc-sidebar-tabs, .tc-site-subtitle {
+    display: none;
+}
+
+.tc-page-controls {
+    text-align: center;
+}
+
+.tc-sidebar-search .tc-search {
+    margin: 0 auto;
+    width: 216px;
+}
+.tc-sidebar-search .tc-search input {
+    width: calc(210px - 1.7em);
+}
+
+.tc-search input {
+    border: solid gray 1px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.tc-tiddler-body p,
+.tc-title {
+    max-width: 960px;
+}
