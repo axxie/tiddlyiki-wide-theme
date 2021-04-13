@@ -1,10 +1,40 @@
-title:  $:/plugins/axxie/theme/style.css
+title:  $:/themes/axxie/theme/style.css
 tags: [[$:/tags/Stylesheet]]
 type: text/css
 
+@media(min-width: 960px) {
+    .tc-story-river {
+        left: 300px;
+        width: calc(100% - 300px);
+    }
+
+    .tc-sidebar-scrollable {
+        width: 300px;
+    }
+
+    .tc-sidebar-search .tc-search {
+        margin: 0 auto;
+        width: 216px;
+    }
+    .tc-sidebar-search .tc-search input {
+        width: calc(210px - 1.7em);
+    }
+    
+    
+}
+
+
+@media(max-width: 960px) {
+    .tc-sidebar-search .tc-search {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .tc-sidebar-search .tc-search input {
+        width: calc(100% - 2em);
+    }
+}
+
 .tc-story-river {
-    left: 300px;
-    width: calc(100% - 300px);
     padding: 0;
     margin: 0;
     background-color: white;
@@ -13,7 +43,6 @@ type: text/css
 .tc-sidebar-scrollable {
     left: 0px;
     margin-left: 0px;
-    width: 300px;
     padding: 29px 42px 28px 42px;
     border-right: 1px solid rgb(207, 205, 205);
     z-index: 1000;
@@ -31,14 +60,6 @@ type: text/css
 
 .tc-page-controls {
     text-align: center;
-}
-
-.tc-sidebar-search .tc-search {
-    margin: 0 auto;
-    width: 216px;
-}
-.tc-sidebar-search .tc-search input {
-    width: calc(210px - 1.7em);
 }
 
 .tc-search input {
