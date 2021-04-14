@@ -13,7 +13,7 @@ git clone https://github.com/Jermolene/TiddlyWiki5.git
 ```
 cd themes
 md axxie
-git clone https://github.com/axxie/tiddlyiki-wide-theme.git
+git clone https://github.com/axxie/tiddlywiki-wide-theme.git
 ```
 
 3. Type the following commands to run in watch mode
